@@ -11,3 +11,5 @@ def get_user(user_id: int):
 @app.get('/users1Query')
 def get_userQuery(limit: int=10, skip: int=0):
     return {'limit': limit, 'skip': skip}
+
+# Body parameters 
